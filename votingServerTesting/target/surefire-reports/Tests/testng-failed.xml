@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Tests]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="annaProjects.SampleTestNgTest">
+        <methods>
+          <include name="checkDTrumpDetails"/>
+          <include name="checkSaveDecrBallot"/>
+          <include name="tearDown"/>
+          <include name="initWebDriver"/>
+          <include name="checkReturnFromDecrBallot"/>
+          <include name="checkTrumpLegislationDetails"/>
+          <include name="checkCLintonLegislationDetails"/>
+          <include name="verifyVotingHelpButton"/>
+          <include name="checkDiscardSignBallot"/>
+          <include name="verifyMonitoringHelpButton"/>
+          <include name="checkDiscardButton"/>
+          <include name="checkHilClintonDetails"/>
+          <include name="checkBlockChainExplorer"/>
+          <include name="checkNoSecretPinInput"/>
+          <include name="driverClose"/>
+          <include name="checkSaveBallotDetails"/>
+          <include name="verifyUncheckedButtons"/>
+          <include name="verifySettingsButton"/>
+        </methods>
+      </class> <!-- annaProjects.SampleTestNgTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Tests] -->

@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 15 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Tests">
+              <span class="suite-name border-failed">Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Tests">
+                    <span>C:\Users\apetrova\IdeaProjects\votingServerTesting\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Tests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Tests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods, 15 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Tests" class="hide-methods failed suite-Tests"> (hide)</a> <!-- hide-methods failed suite-Tests -->
+                      <a href="#" panel-name="suite-Tests" class="show-methods failed suite-Tests"> (show)</a> <!-- show-methods failed suite-Tests -->
+                    </span>
+                    <div class="method-list-content failed suite-Tests">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkBlockChainExplorer">checkBlockChainExplorer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkCLintonLegislationDetails">checkCLintonLegislationDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkDTrumpDetails">checkDTrumpDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkDiscardButton">checkDiscardButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkDiscardSignBallot">checkDiscardSignBallot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkHilClintonDetails">checkHilClintonDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkNoSecretPinInput">checkNoSecretPinInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkReturnFromDecrBallot">checkReturnFromDecrBallot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkSaveBallotDetails">checkSaveBallotDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkSaveDecrBallot">checkSaveDecrBallot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkTrumpLegislationDetails">checkTrumpLegislationDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="verifyMonitoringHelpButton">verifyMonitoringHelpButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="verifySettingsButton">verifySettingsButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="verifyUncheckedButtons">verifyUncheckedButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="verifyVotingHelpButton">verifyVotingHelpButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Tests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Tests" class="hide-methods passed suite-Tests"> (hide)</a> <!-- hide-methods passed suite-Tests -->
+                      <a href="#" panel-name="suite-Tests" class="show-methods passed suite-Tests"> (show)</a> <!-- show-methods passed suite-Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkBallotPage">checkBallotPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkCancelInLegislation">checkCancelInLegislation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkCrossButtonInLegislation">checkCrossButtonInLegislation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkDecryptCancel">checkDecryptCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkDecryptConfirm">checkDecryptConfirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkEstoniaElectionType">checkEstoniaElectionType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkSignBallot">checkSignBallot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkSignBallotCancel">checkSignBallotCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkSubmitSignedBallotWithEmail">checkSubmitSignedBallotWithEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkUSElectionType">checkUSElectionType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="checkVoteButtonVoitingPage">checkVoteButtonVoitingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="verifyAppHeader">verifyAppHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="verifyAppSubHeader">verifyAppSubHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="verifyBottomMonitorButton">verifyBottomMonitorButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="verifyBottomVoitButton">verifyBottomVoitButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="verifyReturnButtMonitorPage">verifyReturnButtMonitorPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="verifyReturnButtVoitingPage">verifyReturnButtVoitingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="verifyStartPageIsLoaded">verifyStartPageIsLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="voitInEllectionPageIsLoaded">voitInEllectionPageIsLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="annaProjects.SampleTestNgTest" hash-for-method="voitInMonitorProcessPageIsLoaded">voitInMonitorProcessPageIsLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Tests" class="panel Tests">
+          <div class="suite-Tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">annaProjects.SampleTestNgTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBlockChainExplorer">
+                  </a> <!-- checkBlockChainExplorer -->
+                  <span class="method-name">checkBlockChainExplorer</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at annaProjects.SampleTestNgTest.checkBlockChainExplorer(SampleTestNgTest.java:448)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCLintonLegislationDetails">
+                  </a> <!-- checkCLintonLegislationDetails -->
+                  <span class="method-name">checkCLintonLegislationDetails</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Information about elections in US is available on webpage] but found [information about elections in estonia is available on webpage]
+	at annaProjects.SampleTestNgTest.checkCLintonLegislationDetails(SampleTestNgTest.java:224)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDTrumpDetails">
+                  </a> <!-- checkDTrumpDetails -->
+                  <span class="method-name">checkDTrumpDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.className: confirm-choise-block-addition-link (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.5.1&apos;, revision: &apos;9c21bb67ef&apos;, time: &apos;2017-08-17T15:26:08.955Z&apos;
+System info: host: &apos;NB-181&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\apetrova\AppData\Local\Temp\scoped_dir39320_215}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 09528548b37d39ba21b96bcf8a9ec7a7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at annaProjects.pages.CandidatesPage.checkCandidatePage(CandidatesPage.java:53)
+	at annaProjects.SampleTestNgTest.checkDTrumpDetails(SampleTestNgTest.java:184)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDiscardButton">
+                  </a> <!-- checkDiscardButton -->
+                  <span class="method-name">checkDiscardButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Candidates of Election&apos;]&quot;}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.1&apos;, revision: &apos;9c21bb67ef&apos;, time: &apos;2017-08-17T15:26:08.955Z&apos;
+System info: host: &apos;NB-181&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\apetrova\AppData\Local\Temp\scoped_dir47208_31602}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8e8d0b2a8a447be26fcae933b1f2e134
+*** Element info: {Using=xpath, value=//*[text()=&apos;Candidates of Election&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at annaProjects.SampleTestNgTest.checkDiscardButton(SampleTestNgTest.java:272)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDiscardSignBallot">
+                  </a> <!-- checkDiscardSignBallot -->
+                  <span class="method-name">checkDiscardSignBallot</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Your Unsigned Ballot&apos;]&quot;}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.1&apos;, revision: &apos;9c21bb67ef&apos;, time: &apos;2017-08-17T15:26:08.955Z&apos;
+System info: host: &apos;NB-181&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\apetrova\AppData\Local\Temp\scoped_dir47304_28151}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 79fba84ac2bb410a88d153bdcc9f35b9
+*** Element info: {Using=xpath, value=//*[text()=&apos;Your Unsigned Ballot&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at annaProjects.pages.UnsignedBallotPage.ballotPageTitle(UnsignedBallotPage.java:31)
+	at annaProjects.SampleTestNgTest.checkDiscardSignBallot(SampleTestNgTest.java:365)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHilClintonDetails">
+                  </a> <!-- checkHilClintonDetails -->
+                  <span class="method-name">checkHilClintonDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.className: confirm-choise-block-addition-link (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.5.1&apos;, revision: &apos;9c21bb67ef&apos;, time: &apos;2017-08-17T15:26:08.955Z&apos;
+System info: host: &apos;NB-181&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\apetrova\AppData\Local\Temp\scoped_dir44432_8676}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7f2ac90dd516b8967668d8af171967e0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at annaProjects.pages.CandidatesPage.checkCandidatePage(CandidatesPage.java:53)
+	at annaProjects.SampleTestNgTest.checkHilClintonDetails(SampleTestNgTest.java:197)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkNoSecretPinInput">
+                  </a> <!-- checkNoSecretPinInput -->
+                  <span class="method-name">checkNoSecretPinInput</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[text()=&apos;Warning, input your secret PIN2 (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at annaProjects.SampleTestNgTest.checkNoSecretPinInput(SampleTestNgTest.java:379)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[text()=&apos;Warning, input your secret PIN2 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[text()=&apos;Warning, input your secret PIN2&apos; is not a valid XPath expression.
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.5.1&apos;, revision: &apos;9c21bb67ef&apos;, time: &apos;2017-08-17T15:26:08.955Z&apos;
+System info: host: &apos;NB-181&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\apetrova\AppData\Local\Temp\scoped_dir47656_28791}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f5688db84f130439cccf0ab3a804c96d
+*** Element info: {Using=xpath, value=//*[text()=&apos;Warning, input your secret PIN2}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:517)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:644)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 29 more
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkReturnFromDecrBallot">
+                  </a> <!-- checkReturnFromDecrBallot -->
+                  <span class="method-name">checkReturnFromDecrBallot</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;app-content-header&quot;}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.1&apos;, revision: &apos;9c21bb67ef&apos;, time: &apos;2017-08-17T15:26:08.955Z&apos;
+System info: host: &apos;NB-181&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\apetrova\AppData\Local\Temp\scoped_dir47756_10149}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: c6fe8346919ee534788cbbe9920c45da
+*** Element info: {Using=class name, value=app-content-header}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:497)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at annaProjects.SampleTestNgTest.checkReturnFromDecrBallot(SampleTestNgTest.java:396)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSaveBallotDetails">
+                  </a> <!-- checkSaveBallotDetails -->
+                  <span class="method-name">checkSaveBallotDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: no alert open
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.5.1&apos;, revision: &apos;9c21bb67ef&apos;, time: &apos;2017-08-17T15:26:08.955Z&apos;
+System info: host: &apos;NB-181&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\apetrova\AppData\Local\Temp\scoped_dir47888_13699}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 02687e08206b2f9a907e1bd4c2453c82
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1024)
+	at annaProjects.SampleTestNgTest.checkSaveBallotDetails(SampleTestNgTest.java:284)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSaveDecrBallot">
+                  </a> <!-- checkSaveDecrBallot -->
+                  <span class="method-name">checkSaveDecrBallot</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [ballot is saved] but found [full ballot encryption details]
+	at annaProjects.SampleTestNgTest.checkSaveDecrBallot(SampleTestNgTest.java:412)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTrumpLegislationDetails">
+                  </a> <!-- checkTrumpLegislationDetails -->
+                  <span class="method-name">checkTrumpLegislationDetails</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Information about elections in US is available on webpage] but found [information about elections in estonia is available on webpage]
+	at annaProjects.SampleTestNgTest.checkTrumpLegislationDetails(SampleTestNgTest.java:211)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMonitoringHelpButton">
+                  </a> <!-- verifyMonitoringHelpButton -->
+                  <span class="method-name">verifyMonitoringHelpButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at annaProjects.SampleTestNgTest.verifyMonitoringHelpButton(SampleTestNgTest.java:103)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySettingsButton">
+                  </a> <!-- verifySettingsButton -->
+                  <span class="method-name">verifySettingsButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at annaProjects.SampleTestNgTest.verifySettingsButton(SampleTestNgTest.java:119)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUncheckedButtons">
+                  </a> <!-- verifyUncheckedButtons -->
+                  <span class="method-name">verifyUncheckedButtons</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [checker] but found [checker active]
+	at annaProjects.SampleTestNgTest.verifyUncheckedButtons(SampleTestNgTest.java:129)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyVotingHelpButton">
+                  </a> <!-- verifyVotingHelpButton -->
+                  <span class="method-name">verifyVotingHelpButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at annaProjects.SampleTestNgTest.verifyVotingHelpButton(SampleTestNgTest.java:97)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tests-class-failed -->
+          <div class="suite-Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">annaProjects.SampleTestNgTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBallotPage">
+                  </a> <!-- checkBallotPage -->
+                  <span class="method-name">checkBallotPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCancelInLegislation">
+                  </a> <!-- checkCancelInLegislation -->
+                  <span class="method-name">checkCancelInLegislation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCrossButtonInLegislation">
+                  </a> <!-- checkCrossButtonInLegislation -->
+                  <span class="method-name">checkCrossButtonInLegislation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDecryptCancel">
+                  </a> <!-- checkDecryptCancel -->
+                  <span class="method-name">checkDecryptCancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDecryptConfirm">
+                  </a> <!-- checkDecryptConfirm -->
+                  <span class="method-name">checkDecryptConfirm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEstoniaElectionType">
+                  </a> <!-- checkEstoniaElectionType -->
+                  <span class="method-name">checkEstoniaElectionType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSignBallot">
+                  </a> <!-- checkSignBallot -->
+                  <span class="method-name">checkSignBallot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSignBallotCancel">
+                  </a> <!-- checkSignBallotCancel -->
+                  <span class="method-name">checkSignBallotCancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSubmitSignedBallotWithEmail">
+                  </a> <!-- checkSubmitSignedBallotWithEmail -->
+                  <span class="method-name">checkSubmitSignedBallotWithEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUSElectionType">
+                  </a> <!-- checkUSElectionType -->
+                  <span class="method-name">checkUSElectionType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkVoteButtonVoitingPage">
+                  </a> <!-- checkVoteButtonVoitingPage -->
+                  <span class="method-name">checkVoteButtonVoitingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppHeader">
+                  </a> <!-- verifyAppHeader -->
+                  <span class="method-name">verifyAppHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppSubHeader">
+                  </a> <!-- verifyAppSubHeader -->
+                  <span class="method-name">verifyAppSubHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBottomMonitorButton">
+                  </a> <!-- verifyBottomMonitorButton -->
+                  <span class="method-name">verifyBottomMonitorButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBottomVoitButton">
+                  </a> <!-- verifyBottomVoitButton -->
+                  <span class="method-name">verifyBottomVoitButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyReturnButtMonitorPage">
+                  </a> <!-- verifyReturnButtMonitorPage -->
+                  <span class="method-name">verifyReturnButtMonitorPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyReturnButtVoitingPage">
+                  </a> <!-- verifyReturnButtVoitingPage -->
+                  <span class="method-name">verifyReturnButtVoitingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStartPageIsLoaded">
+                  </a> <!-- verifyStartPageIsLoaded -->
+                  <span class="method-name">verifyStartPageIsLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="voitInEllectionPageIsLoaded">
+                  </a> <!-- voitInEllectionPageIsLoaded -->
+                  <span class="method-name">voitInEllectionPageIsLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="voitInMonitorProcessPageIsLoaded">
+                  </a> <!-- voitInMonitorProcessPageIsLoaded -->
+                  <span class="method-name">voitInMonitorProcessPageIsLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tests-class-passed -->
+        </div> <!-- panel Tests -->
+        <div panel-name="test-xml-Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\apetrova\IdeaProjects\votingServerTesting\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Tests&quot;&gt;
+  &lt;test name=&quot;Test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;annaProjects.SampleTestNgTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+&lt;/suite&gt; &lt;!-- Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Tests');
+function tableData_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkHilClintonDetails')
+data.setCell(0, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(0, 3, 35169);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkDTrumpDetails')
+data.setCell(1, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(1, 3, 34889);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkDiscardSignBallot')
+data.setCell(2, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(2, 3, 16222);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkDiscardButton')
+data.setCell(3, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(3, 3, 16172);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkNoSecretPinInput')
+data.setCell(4, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(4, 3, 15960);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkReturnFromDecrBallot')
+data.setCell(5, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(5, 3, 15831);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkCLintonLegislationDetails')
+data.setCell(6, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(6, 3, 8918);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkCrossButtonInLegislation')
+data.setCell(7, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(7, 3, 8357);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkSaveDecrBallot')
+data.setCell(8, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(8, 3, 8006);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkBlockChainExplorer')
+data.setCell(9, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(9, 3, 7641);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkTrumpLegislationDetails')
+data.setCell(10, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(10, 3, 6852);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkCancelInLegislation')
+data.setCell(11, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(11, 3, 6683);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkSignBallotCancel')
+data.setCell(12, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(12, 3, 6471);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkDecryptCancel')
+data.setCell(13, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(13, 3, 6467);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkSubmitSignedBallotWithEmail')
+data.setCell(14, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(14, 3, 6368);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkDecryptConfirm')
+data.setCell(15, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(15, 3, 6322);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkSignBallot')
+data.setCell(16, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(16, 3, 6141);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkBallotPage')
+data.setCell(17, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(17, 3, 5602);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkSaveBallotDetails')
+data.setCell(18, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(18, 3, 5213);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'voitInMonitorProcessPageIsLoaded')
+data.setCell(19, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(19, 3, 5070);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkVoteButtonVoitingPage')
+data.setCell(20, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(20, 3, 4565);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyReturnButtMonitorPage')
+data.setCell(21, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(21, 3, 4449);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkUSElectionType')
+data.setCell(22, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(22, 3, 4317);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkEstoniaElectionType')
+data.setCell(23, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(23, 3, 4275);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifySettingsButton')
+data.setCell(24, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(24, 3, 4213);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'voitInEllectionPageIsLoaded')
+data.setCell(25, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(25, 3, 4095);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyReturnButtVoitingPage')
+data.setCell(26, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(26, 3, 4081);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyBottomMonitorButton')
+data.setCell(27, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(27, 3, 4038);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyVotingHelpButton')
+data.setCell(28, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(28, 3, 4036);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyBottomVoitButton')
+data.setCell(29, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(29, 3, 4015);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyUncheckedButtons')
+data.setCell(30, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(30, 3, 4013);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyAppHeader')
+data.setCell(31, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(31, 3, 3952);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyStartPageIsLoaded')
+data.setCell(32, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(32, 3, 3857);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyMonitoringHelpButton')
+data.setCell(33, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(33, 3, 3794);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyAppSubHeader')
+data.setCell(34, 2, 'annaProjects.SampleTestNgTest')
+data.setCell(34, 3, 3703);
+window.suiteTableData['Tests']= { tableData: data, tableDiv: 'times-div-Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Tests">
+              </div> <!-- times-div-Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">annaProjects.SampleTestNgTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStartPageIsLoaded</span>
+                <span class="method-start">2387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">6244 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">8356 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkBlockChainExplorer</span>
+                <span class="method-start">10087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">17740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">17875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAppHeader</span>
+                <span class="method-start">19584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">23537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">23778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAppSubHeader</span>
+                <span class="method-start">25471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">29174 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">29430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">voitInEllectionPageIsLoaded</span>
+                <span class="method-start">31153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">35248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">35346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">voitInMonitorProcessPageIsLoaded</span>
+                <span class="method-start">37078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">42148 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">42370 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyReturnButtVoitingPage</span>
+                <span class="method-start">44052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">48134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">48325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyReturnButtMonitorPage</span>
+                <span class="method-start">50105 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">54554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">54736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyVotingHelpButton</span>
+                <span class="method-start">56517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">60553 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">60758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyMonitoringHelpButton</span>
+                <span class="method-start">62454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">66249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">66480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBottomMonitorButton</span>
+                <span class="method-start">68246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">72284 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">72522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBottomVoitButton</span>
+                <span class="method-start">74775 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">78790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">78980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySettingsButton</span>
+                <span class="method-start">80721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">84934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">85101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyUncheckedButtons</span>
+                <span class="method-start">86870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">90883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">91103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkUSElectionType</span>
+                <span class="method-start">92843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">97160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">97332 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkEstoniaElectionType</span>
+                <span class="method-start">99012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">103287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">103470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkVoteButtonVoitingPage</span>
+                <span class="method-start">105150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">109715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">109899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkDTrumpDetails</span>
+                <span class="method-start">111665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">146557 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">146567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkHilClintonDetails</span>
+                <span class="method-start">147840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">183010 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">183021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkTrumpLegislationDetails</span>
+                <span class="method-start">186011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">192864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">192989 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkCLintonLegislationDetails</span>
+                <span class="method-start">196654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">205573 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">207658 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkCancelInLegislation</span>
+                <span class="method-start">210449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">217133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">217457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkCrossButtonInLegislation</span>
+                <span class="method-start">219612 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">227969 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">228271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkBallotPage</span>
+                <span class="method-start">229995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">235597 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">235799 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkDiscardButton</span>
+                <span class="method-start">236979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">253152 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">253370 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkSaveBallotDetails</span>
+                <span class="method-start">255047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">260261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">260501 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkDecryptCancel</span>
+                <span class="method-start">262184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">268652 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">268790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkDecryptConfirm</span>
+                <span class="method-start">270578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">276900 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">277041 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSignBallotCancel</span>
+                <span class="method-start">278840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">285311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">285433 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSignBallot</span>
+                <span class="method-start">287121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">293262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">293408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkDiscardSignBallot</span>
+                <span class="method-start">295093 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">311315 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">311511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkNoSecretPinInput</span>
+                <span class="method-start">313947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">329908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">330007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkReturnFromDecrBallot</span>
+                <span class="method-start">331761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">347592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">347750 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkSaveDecrBallot</span>
+                <span class="method-start">349430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">357437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initWebDriver</span>
+                <span class="method-start">357597 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSubmitSignedBallotWithEmail</span>
+                <span class="method-start">359287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">365655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">365955 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
